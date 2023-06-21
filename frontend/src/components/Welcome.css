@@ -1,0 +1,41 @@
+.welcome-page {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.welcome-page h1 {
+  font-size: 40px;
+  color: #1963d3;
+}
+
+.welcome-page p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
+body {
+  display: flex;
+  background-image: url("C:\Users\cchit\OneDrive\Desktop\BBMS\frontend\src\images\blood.jpg");
+  justify-content: center;
+  padding-top: 50px;
+  align-items: center;
+  background-size: cover;
+}
+.button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: linear-gradient(45deg, #901616, #302f2d);
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.8);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+  box-shadow: 0 0 20px rgba(248, 5, 5, 0.995);
+}
